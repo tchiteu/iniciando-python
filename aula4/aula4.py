@@ -33,6 +33,7 @@ ax.set_xticklabels(anos)
 
 ax.set(xlabel='Ano', ylabel='Quantidade de premios')
 ax.set_title('Premiacoes de Jogos')
+ax.legend()
 ax.grid()
 
 fig.savefig("grafico_aula4.png")
